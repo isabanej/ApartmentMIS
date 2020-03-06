@@ -1,0 +1,130 @@
+/*@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');*/
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.fulldiv{
+    width: 100%;
+}
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    margin-left:155px ;
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:100%;
+}
+
+.halfdiv{
+    width:45%;
+    float: left;
+    padding:10px;
+    margin: 10px;
+}
+.col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=button] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.isa_success, .isa_error{
+    margin: 10px 0px;
+    padding:12px;
+
+}
+
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.isa_success i, .isa_error i{
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+
+
+#students, #buildings {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#students td, #students th , #buildings td,  #buildings th , #rooms td,  #rooms th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#buildings tr:nth-child(even){background-color: #f2f2f2;}
+
+#buildings tr:hover {background-color: #ddd;}
+
+#rooms tr:nth-child(even){background-color: #f2f2f2;}
+
+#rooms tr:hover {background-color: #ddd;}
+
+#students th,  #buildings th , #rooms th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+

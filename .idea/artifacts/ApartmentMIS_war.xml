@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ApartmentMIS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ApartmentMIS</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ApartmentMIS-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ApartmentMIS:war exploded" />
+    </root>
+  </artifact>
+</component>
